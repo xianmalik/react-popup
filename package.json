@@ -1,0 +1,25 @@
+{
+  "name": "wpcafe-pro",
+  "version": "0.1.0",
+  "description": "ReactJS Scripts for WP Cafe PRO",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.0",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.8.3",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.2.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "build:1": "webpack -p",
+    "build": "webpack -p --watch",
+    "dev": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
